@@ -5,6 +5,8 @@ so a simple scraper that downloads the HTML only sees the first few. This one
 opens a real browser with Playwright, keeps scrolling until nothing new shows
 up, and then saves every product to a spreadsheet.
 
+![The scraper scrolling through the store](demo.gif)
+
 I built it against webscraper.io's practice store, which is made for this kind
 of testing and behaves like a real shop.
 
